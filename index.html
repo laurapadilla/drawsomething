@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="generator" content="SuperHi">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Draw Something</title>
+	<meta name="description" content="Draw something in this HTML5 canvas!">
+	<link rel="icon" href="black-pencil.png">
+	<meta property="og:title" content="✎ Draw Something">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="___CURRENT_URL___">
+	<meta property="og:description" content="An HTML5 drawing canvas">
+	<meta property="og:image" content="___ROOT_HOST___/draw-something.png">
+	<link rel="stylesheet" href="/styles/base.css">
+	<link rel="stylesheet" href="/styles/fonts.css">
+	<link rel="stylesheet" href="/styles/style.css">
+</head>
+
+<body>
+	<script src="/superhi.js"></script>
+	<canvas></canvas>
+
+	<h1>
+		✏︎ Draw something
+	</h1>
+
+	<p class="made-by">
+		Made by <a href="https://www.twitter.com/lauvpadilla">@lauvpadilla</a>
+	</p>
+
+	<!-- <nav>
+		  <a href="#" style="background-color: #ff4141"></a>
+		  <a href="#" style="background-color: #fef336"></a>
+		  <a href="#" style="background-color: #2727e6"></a>
+		  <a href="#" style="background-color: #00ff00"></a>
+		  <a href="#" style="background-color: #ffffff"></a>
+		</nav> -->
+
+	<div class="color-changer">
+		Background
+		<input type="color" />
+	</div>
+
+	<div class="color-changer-pencil">
+		Pencil
+		<input type="color" />
+	</div>
+
+	<div class="buttons">
+		<button id="clear">
+			Clear
+		</button>
+
+		<!--     <button id="erase">
+		    Erase
+		  </button> -->
+
+		<!--   <button type="button" class="download">
+		    Download
+		  </button> -->
+	</div>
+
+	<script src="js/p5.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/chroma-js/2.1.0/chroma.min.js"></script>
+	<script src="/js/painter.js"></script>
+
+</body>
+
+</html>

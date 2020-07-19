@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "Syne-Extra";
+  src: url(/fonts/syne-extra.woff2);
+}
+
+@font-face {
+  font-family: "Syne";
+  src: url(/fonts/syne-regular.woff2);
+}
+
+@font-face {
+  font-family: "Compagnon";
+  src: url(/fonts/compagnon-roman.woff2);
+}
+
+@font-face {
+  font-family: "Compagnon-Italic";
+  src: url(/fonts/compagnon-italic.woff2);
+}
+
+@font-face {
+  font-family: "Compagnon-Medium";
+  src: url(/fonts/compagnon-medium.woff2);
+}
