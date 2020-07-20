@@ -1,37 +1,38 @@
 @font-face {
-  font-family: 'Syne-Extra';
-  src: url(syne-extra.woff2);
+  font-family: "Syne-Extra";
+  src: url(/fonts/syne-extra.woff2);
 }
 
 @font-face {
-  font-family: 'Syne';
-  src: url(syne-regular.woff2);
+  font-family: "Syne";
+  src: url(/fonts/syne-regular.woff2);
 }
 
 @font-face {
-  font-family: 'Compagnon';
-  src: url(compagnon-roman.woff2);
+  font-family: "Compagnon";
+  src: url(/fonts/compagnon-roman.woff2);
 }
 
 @font-face {
-  font-family: 'Compagnon-Italic';
-  src: url(compagnon-italic.woff2);
+  font-family: "Compagnon-Italic";
+  src: url(/fonts/compagnon-italic.woff2);
 }
 
 @font-face {
-  font-family: 'Compagnon-Medium';
-  src: url(compagnon-medium.woff2);
+  font-family: "Compagnon-Medium";
+  src: url(/fonts/compagnon-medium.woff2);
 }
 
 body {
-  font-family: 'Syne-Extra';
+  font-family: "Syne-Extra";
   font-size: 48px;
   line-height: 1.5;
 
   text-align: center;
   background-color: #111118;
   color: #fff;
-  cursor: url('pencil.png'), auto;
+  cursor: url("https://lauvpadilla.github.io/drawsomething/images/pencil.png"),
+    auto;
   overflow: hidden;
 }
 
@@ -45,11 +46,11 @@ h1 {
 
 a {
   color: #fff;
-  font-family: 'Compagnon';
+  font-family: "Compagnon";
 }
 
 p.made-by {
-  font-family: 'Compagnon-Italic';
+  font-family: "Compagnon-Italic";
   font-size: 28px;
   position: fixed;
   top: 50%;
@@ -84,7 +85,7 @@ div.color-changer {
   padding: 8px 16px;
   margin-right: 20px;
   font-size: 20px;
-  font-family: 'Syne';
+  font-family: "Syne";
 }
 
 div.color-changer input {
@@ -117,7 +118,7 @@ div.color-changer-pencil {
   border: 2px solid #fff;
   padding: 8px 16px;
   font-size: 20px;
-  font-family: 'Syne';
+  font-family: "Syne";
 }
 
 div.color-changer-pencil input {
@@ -142,7 +143,7 @@ button {
   height: 45px;
   width: 135px;
   font-size: 20px;
-  font-family: 'Syne';
+  font-family: "Syne";
   text-align: center;
   transition: color 0.5s ease;
 }
